@@ -1,10 +1,10 @@
 <template>
 	<div class="menu-wrapper">
 		<div>
-			<router-link to="/"><p>HOME</p></router-link>
+			<router-link to="/"><p class="app-link">HOME</p></router-link>
 		</div>
 		<div>
-			<router-link to="/menu1"><p>info</p></router-link>
+			<router-link to="/dashboard/menu2"><p class="app-link">info</p></router-link>
 		</div>
 		<div @click="counter">{{ name }}</div>
 		<!-- <button @click="counter">{{ counter }}</button> -->
@@ -36,11 +36,7 @@ export default {
 	align-items: center;
 
 
-	div{
-		padding: 5px 10px;
-		border: 1px solid green;
-		margin-right: 5px;
-	}
+
 
 }
 </style>

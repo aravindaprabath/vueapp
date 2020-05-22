@@ -6,15 +6,22 @@
 
 </template>
 
-<script></script>
-<style lang="scss">
+
+
+<script>
+
+</script>
+
+
+
+<style lang="scss" scoped>
+
 .main-container{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;align-items: center;
-    border: 1px solid black
-;
+    border: 1px solid black;
 }
 </style>
